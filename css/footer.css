@@ -1,0 +1,59 @@
+footer {
+  padding: 40px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .footerTXT {
+  font-family: "Playfair Display", serif;
+  color: gray;
+}
+footer .footer__nav {
+  font-size: 12px;
+  gap: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+footer .footer__nav a {
+  text-decoration: none;
+  color: #AE6262;
+  text-transform: uppercase;
+  position: relative;
+  -webkit-transition: 3s all ease;
+  transition: 3s all ease;
+}
+footer .footer__nav a::after {
+  content: "";
+  position: absolute;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #AE6262;
+  bottom: -10px;
+}
+footer .footer__nav a:hover::after {
+  padding: 0;
+  width: 100%;
+}

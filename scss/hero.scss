@@ -1,0 +1,30 @@
+.hero {
+    &__title {
+        font-size: 60px;
+        text-align: center;
+    }
+    .regTXT {
+        text-align: center;
+    }
+    &__btn {
+        text-transform: uppercase;
+        font-size: 18px;
+        text-decoration: none;
+        padding: 20px 30px;
+        background: #AE6262;
+        box-shadow: 0px 4px 21px rgba(174, 98, 98, 0.3);
+        transition: .3s all ease;
+        color: white;
+        width: min-content;
+        &:hover {
+            padding: 20px 60px;
+        }
+    }
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}

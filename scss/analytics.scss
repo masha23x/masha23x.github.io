@@ -1,0 +1,12 @@
+.analytics {
+    &__wrapper {
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+}
